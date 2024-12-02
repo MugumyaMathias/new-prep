@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE NAVIGATION </title>
+    <link rel="stylesheet" href="http://www.google.com">
+</head>
+<body>
+    <style>
+        h1{
+            color: rgb(83, 4, 4);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 5px;
+            margin: 3px;
+            background-color: palevioletred;
+            text-align: center;
+           
+        }
+        header{
+
+            background-color:#6c6a70;
+            text-align: center;
+            border: solid;
+            border-radius: 40px;
+            padding: 10px;
+        }
+        nav ul{
+            list-style: none;
+           
+        }
+    nav li{
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    
+    }
+    section{
+        margin-bottom:40px;
+
+    }
+    .image .item{
+        flex: 1;
+        background-color: #6c6a70;
+        padding: 5px;
+        margin-top: 2px;
+        margin-bottom: 8px;
+        margin-right: 8px;
+        margin-left: 8px;
+    }
+    </style>
+    
+    <h1>The sheila pink-portfolio</h1>
+   
+<link rel="style sheet" href="sheilasheet.css"> 
+</body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="about.html">about</a></li>
+            <li><a href="potfolio.html">portfolio</a></li>
+            <li><a href="blog">Blog</a></li>
+            <li><a href="contact">contact</a></li>
+        </ul>
+    </nav>
+    <h1> sheila's pink-portfolio</h1>
+    <p>having a well suitainable life and desirable life </p>
+
+</header>
+<main>
+    <section id="about">
+        <h2>About sheila</h2>
+        <p>having suitainable life promote great work and respect in the work</p>
+
+<section id="portfolio">
+    <h3> sheila's portfolio</h3>
+    <img src="image.png" width="850px" height="450px">
+<div class="gallary"></div>
+<div class="item">project of sheila 1</div>
+<div class="item">project of sheila 2</div>
+<div class="item">project of sheila 3</div>
+</section>
+<section id="Blog">
+    <h3>Blog</h3>
+    <img src="blog.jpg" alt="" width="600px" height="400px">
+    <p>the coming  of sheila the village insights people andshe provides them with every <br>
+        thing that can prove her suitainable life</p>
+</section>
+<section id="contact ">
+    <h2>contact</h2>
+<form id="contact form">
+    <label for="name">Name</label>
+<input type="name" id="name" name="name"required><br><br>
+<label for="email">Email</label>
+<input type="email" id="email" name="email"required><br><br>
+<label for="message">message</label>
+<textarea id="message" name="message"required></textarea><br><br>
+<button type="submit" >submit</button>
+
+</form>
+</section>
+<footer>
+    <p>&copy; 2024 SHEILA PINK.All rights where reversed</p>
+</footer>
+<script src="script.js">
+    document.getElementById("contantform").addEventListener("submit") function(event){ event.preventDefault();alert("Thanks you for your message")
+}
+</script>
+
+
+</html>
